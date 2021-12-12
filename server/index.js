@@ -31,7 +31,7 @@ app.post("/py", (req, res) => {
 
 
     res.json({
-        message: `it's ${a}`
+        Message:a[0]
     })
 })
 

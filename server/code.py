@@ -1,10 +1,10 @@
 import sys
 
 def add(a,b):
-  return a+b
+  return a+a
 
 if __name__ == "__main__":
   a=int(sys.argv[1])
   b=int(sys.argv[2])
   ans=int(sys.argv[3])
-  print(add(a,b)==ans) 
+  print(add(a,b)==ans)  
