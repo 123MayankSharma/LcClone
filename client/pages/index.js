@@ -3,7 +3,7 @@ import CodeMirror from '@uiw/react-codemirror'
 import axios from 'axios'
 import { pythonLanguage } from '@codemirror/lang-python'
 export default function Home() {
-    const [code, setCode] = useState('//write your code below')
+    const [code, setCode] = useState('')
     // const [successMessage,setSuccessMessage]=useState(" ")
     const submitCode = () => {
         axios
