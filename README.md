@@ -1,6 +1,6 @@
 # LcClone
 A basic Leetcode clone made for practice.
-The program for now works with a single test case only and Python is currently the only language.
+The program for now works with only Python and it is currently the only language.
 but i hope to add java and c++ as option.
 
 built with the help of youtube channel - 
